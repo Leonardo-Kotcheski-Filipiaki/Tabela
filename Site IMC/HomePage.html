@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label>Nome</label>
+            <br/>
+            <input placeholder="Digite seu Nome" id="name"></input>
+            <br/>
+            <label id="peso">Peso</label>
+            <label id="altura">Altura</label>
+            <br/>
+            <input placeholder="Digite seu Peso" value="" id="weight"></input>
+            <input placeholder="Digite sua Altura" id="height"></input>
+            <br/>
+            <button id="Registrar" onclick="batata()">Registrar</button>
+            <br/>
+            <table id="tabela">
+                <tbody id="tbody">
+                    <tr>
+                        <td id="Contador">#</td>
+                        <td id="nome" >Nome</td>
+                        <td id="peso" >Peso</td>
+                        <td id="altura">Altura</td>
+                        <td id="IMC" colspan="2">IMC</td>
+    
+                    </tr>
+                </tbody>
+            </table> 
+        </form>
+    </div>
+    <script src="./JavaScript.js"></script>
+</body>
+</html>

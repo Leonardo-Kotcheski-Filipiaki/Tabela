@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+    background-color: rgb(5, 11, 20);
+    color: rgb(151, 216, 113);
+    font-size: 4vh;
+}
+#altura{
+    margin-left:23vh;
+
+}
+body div form button{
+    margin-top:2vh;
+}
+body div form input{
+    background-color:rgb(230, 242, 223) ;
+    font-size: 2.8vh;
+}
+table{
+    border: 0.3vh #000 solid;
+
+}
+table tbody tr td{
+    padding-left: 4vh;
+}
+@media screen and (min-device-width:360px) and (max-device-width:400){
+    *{
+        font-size: 1vh;
+    }
+    
+}
